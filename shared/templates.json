@@ -1,0 +1,102 @@
+{
+  "chat": {
+    "welcome": "Hello! I'm your AI health assistant. I can help you with health questions and book appointments with our doctors. How can I assist you today?",
+    "askPatientName": "To help you better, may I have your name?",
+    "askPatientEmail": "Great! What's your email address so we can send you appointment confirmation?",
+    "askDoctorPreference": "Which doctor would you like to see? We have several specialists available.",
+    "askAppointmentDate": "What date and time works best for you? Please include your timezone.",
+    "askTimezone": "What's your timezone? (e.g., America/New_York, Europe/London)",
+    "askReason": "What's the reason for your visit?",
+    "confirmBooking": "Perfect! Let me confirm your appointment:\n- Patient: {patientName}\n- Email: {patientEmail}\n- Doctor: {doctorName}\n- Date: {appointmentDate}\n- Timezone: {timezone}\n- Reason: {reason}\n\nShould I proceed with this booking?",
+    "bookingSuccess": "Your appointment has been booked successfully! You'll receive a confirmation email with an ICS calendar invite shortly.",
+    "bookingError": "I'm sorry, there was an error booking your appointment. Please try again or contact support.",
+    "ragNoResults": "I don't have specific information about that in my knowledge base. Would you like me to help you book an appointment with a doctor instead?",
+    "error": "I apologize, but I encountered an error. Please try again.",
+    "processing": "Let me check that for you..."
+  },
+  "ui": {
+    "landingHero": {
+      "title": "AI-Powered Health Support & Expert Care Scheduling",
+      "subtitle": "Get instant answers to your health questions with verified citations, and easily book appointments with our expert doctors",
+      "ctaPrimary": "Ask a Health Question",
+      "ctaSecondary": "Book Appointment"
+    },
+    "trustIndicators": {
+      "citations": {
+        "title": "AI-Powered Answers with Citations",
+        "description": "Every health answer includes sources and references"
+      },
+      "doctors": {
+        "title": "Expert Doctors Available",
+        "description": "Board-certified specialists ready to help"
+      },
+      "security": {
+        "title": "Secure & Private",
+        "description": "HIPAA compliant with end-to-end encryption"
+      }
+    },
+    "features": {
+      "chat": {
+        "title": "Intelligent Health Assistant",
+        "description": "Our RAG-powered chatbot provides accurate health information with citations from verified medical sources. Ask questions and get instant, reliable answers."
+      },
+      "booking": {
+        "title": "Seamless Appointment Booking",
+        "description": "Book appointments directly through our chat interface or web form. Automatically generate calendar invites with timezone support."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": [
+        {
+          "title": "Ask Your Question",
+          "description": "Type your health question in plain language"
+        },
+        {
+          "title": "AI Analyzes",
+          "description": "Our RAG system searches medical knowledge base"
+        },
+        {
+          "title": "Get Cited Answers",
+          "description": "Receive accurate information with source citations"
+        },
+        {
+          "title": "Book if Needed",
+          "description": "Easily schedule an appointment with a specialist"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Join thousands of users getting reliable health information",
+      "badges": ["HIPAA Compliant", "Encrypted", "Verified Doctors"]
+    },
+    "chat": {
+      "placeholder": "Ask a health question or type 'book appointment'...",
+      "send": "Send",
+      "newChat": "New Conversation",
+      "conversations": "Chat History",
+      "sources": "Sources & Citations"
+    },
+    "booking": {
+      "title": "Book an Appointment",
+      "steps": ["Patient Info", "Select Doctor", "Choose Time", "Confirm"],
+      "patientName": "Full Name",
+      "patientEmail": "Email Address",
+      "selectDoctor": "Choose a Doctor",
+      "selectDate": "Select Date & Time",
+      "timezone": "Your Timezone",
+      "reason": "Reason for Visit",
+      "confirm": "Confirm Booking",
+      "downloadICS": "Download Calendar Invite",
+      "success": "Appointment Confirmed!",
+      "error": "Booking Failed"
+    },
+    "doctors": {
+      "available": "Available",
+      "unavailable": "Busy"
+    },
+    "loading": "Loading...",
+    "error": "Something went wrong. Please try again."
+  }
+}
